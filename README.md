@@ -76,7 +76,7 @@ If you have any suggestions or improvements, feel free to fork this repository, 
 
 ## Deployment
 
-The website is currently hosted on GitHub Pages. You can access the live site here: [https://sreesreejuks.github.io/sr-portfolio/](https://sreesreejuks.github.io/sr-portfolio/)
+The website is currently hosted on GitHub Pages. You can access the live site here: [https://sreesreejuks.com](https://sreesreejuks.com)
 
 ## License
 
