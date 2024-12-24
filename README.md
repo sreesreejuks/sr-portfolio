@@ -1,3 +1,49 @@
+# Sreeju KS Portfolio Website
+
+This repository contains the source code for my personal portfolio website. The website is designed to showcase my skills, experience, and interests as a DevOps engineer.
+
+## About
+
+This portfolio site is a place where I share details about my professional journey, technical skills, and personal hobbies. It's built using HTML, CSS, and JavaScript, with a focus on being responsive and easy to navigate.
+
+## Key Features
+
+*   **Homepage:** Introduces me, my current role, and a brief description of my interests and experience.
+*   **About Page:** Provides a detailed overview of my background, work experience, and passions.
+*   **Contact Page:** Includes my email address and links to my social media profiles.
+*   **Responsive Design:** The website is designed to be viewed on different devices, including desktops, tablets, and mobile phones.
+*   **Copy to Clipboard:** Implemented copy-to-clipboard functionality for email address on the contact page.
+*   **Clean and Simple Design:** The website is designed with a focus on clarity and ease of use.
+
+## Technologies Used
+
+*   **HTML5:** For structuring the web pages.
+*   **CSS3:** For styling the web pages, including layout, colors, and responsiveness.
+*   **JavaScript:** For implementing interactive features, such as copy to clipboard functionality
+*   **Font Awesome:** For icons.
+*   **Google Fonts:** For web typography
+*   **GitHub Pages:** For deployment
+
+## File Structure
+
+The repository has the following file structure:
+
+project-root/
+├── css/
+│ ├── base.css
+│ ├── navigation.css
+│ ├── hero.css
+│ ├── about.css
+│ ├── contact.css
+│ ├── social.css
+│ └── responsive.css
+├── img/
+│ ├── link-tag.png
+│ └── sreejuks.jpg
+├── index.html
+├── about.html
+├── contact.html
+├── README.md
 
 *   `index.html`: The homepage.
 *   `about.html`: The about page.
