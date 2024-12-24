@@ -1,0 +1,12 @@
+website/
+├── css/
+│   ├── style.css     # Common styles
+│   ├── index.css     # Homepage styles
+│   ├── about.css     # About page styles
+│   └── contact.css   # Contact page styles
+├── img/
+│   ├── profile.jpg   # Your profile picture
+│   └── favicon.ico   # Website tab icon
+├── index.html        # Homepage
+├── about.html        # About page
+└── contact.html      # Contact page

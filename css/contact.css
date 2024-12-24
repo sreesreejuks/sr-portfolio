@@ -1,0 +1,74 @@
+/* css/contact.css - Styles for the contact page */
+
+.contact-section {
+  padding: 40px 0;
+  text-align: center;
+}
+.contact-section h1 {
+  font-size: 2em;
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-section .email-container {
+  margin-bottom: 20px;
+}
+.contact-section .email-container p {
+  font-size: 1.1em;
+  color: lightgrey;
+}
+.contact-section .email-container button {
+  background-color: transparent;
+  border: 1px solid lightgrey;
+  color: lightgrey;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-section .email-container button:hover {
+  background-color: lightgrey;
+  color: #fff;
+}
+
+.contact-form-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover{
+    background-color: #4cae4c;
+}
