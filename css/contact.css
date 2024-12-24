@@ -44,7 +44,7 @@
     border-radius: 5px;
     white-space: nowrap;
     overflow-x: auto; /* Enable horizontal scrolling if needed */
-    font-size: 1.2rem;
+    font-size: 1rem;
      font-family: monospace;
     margin: 0; /* Remove default margins on pre */
     flex-grow: 1;
