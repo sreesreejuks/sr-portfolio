@@ -1,3 +1,4 @@
+<!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/contact.css">
-     <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="css/social.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,12 +25,7 @@
     <section class="contact">
         <div class="container">
             <h1>Stay in Touch</h1>
-             <div class="copy-container">
-                 <pre id="command-text">mail@sreesreejuks.com</pre>
-                 <button id="copy-email" aria-label="Copy command to clipboard">
-                   <i class="fas fa-copy"></i>
-                </button>
-             </div>
+            <p class="email-link"><a href="mailto:mail@sreesreejuks.com">mail@sreesreejuks.com</a></p>
         </div>
          <div class="social-links">
             <a href="https://www.linkedin.com/in/sreesreejuks" target="_blank" rel="noopener" class="social-icon linkedin" aria-label="Visit my LinkedIn profile">
@@ -46,36 +42,5 @@
     <footer>
         <p>&copy; 2024 Sreeju KS</p>
     </footer>
-   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-            const copyButton = document.getElementById('copy-email');
-            const commandText = document.getElementById('command-text');
-
-
-            copyButton.addEventListener('click', function() {
-                const command = commandText.textContent;
-
-                navigator.clipboard.writeText(command)
-                    .then(() => {
-                         const tooltip = document.createElement('span');
-                       tooltip.textContent = 'Copied!';
-                       tooltip.classList.add('copy-tooltip');
-                       copyButton.appendChild(tooltip);
-
-                       //Remove the feedback after some delay
-                      setTimeout(()=>{
-                        tooltip.remove();
-                       }, 1000);
-
-
-                    })
-                     .catch(err => {
-                        console.error('Failed to copy command: ', err);
-                         alert('Failed to copy email address, please select the text and copy'); //Fallback if copy fails
-                    });
-            });
-        });
-
-    </script>
 </body>
 </html>
