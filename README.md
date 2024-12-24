@@ -27,7 +27,8 @@ This portfolio site is a place where I share details about my professional journ
 ## File Structure
 
 The repository has the following file structure:
-
+Use code with caution.
+Text
 project-root/
 ├── css/
 │ ├── base.css
@@ -49,13 +50,13 @@ project-root/
 *   `about.html`: The about page.
 *   `contact.html`: The contact page.
 *   `css/`: Contains all the CSS files.
-     *  `base.css`: Base styles, resets, and general styles
-     * `navigation.css`: Styles for the navigation bar.
-     *  `hero.css`: Styles for the hero section of the home page.
-      *  `about.css`: Styles specific to the about page.
-       * `contact.css`: Styles for the contact page.
-       * `social.css`: Styles for the social media icons.
-        *`responsive.css`: Contains the media query styles for mobile view.
+    *   `base.css`: Base styles, resets, and general styles
+    *   `navigation.css`: Styles for the navigation bar.
+    *   `hero.css`: Styles for the hero section of the home page.
+    *   `about.css`: Styles specific to the about page.
+    *   `contact.css`: Styles for the contact page.
+    *   `social.css`: Styles for the social media icons.
+    *   `responsive.css`: Contains the media query styles for mobile view.
 *   `img/`: Contains all the images used in the website.
 *   `README.md`: This file.
 
