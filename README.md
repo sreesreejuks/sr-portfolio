@@ -76,7 +76,7 @@ If you have any suggestions or improvements, feel free to fork this repository, 
 
 ## Deployment
 
-The website is currently hosted on GitHub Pages. You can access the live site here: [https://sreesreejuks.com](https://sreesreejuks.com)
+The website is currently hosted on Vercel. You can access the live site here: [https://sreesreejuks.com](https://sreesreejuks.com)
 
 ## License
 
