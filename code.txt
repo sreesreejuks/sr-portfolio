@@ -1,12 +1,15 @@
-website/
+project-root/
 ├── css/
-│   ├── style.css     # Common styles
-│   ├── index.css     # Homepage styles
-│   ├── about.css     # About page styles
-│   └── contact.css   # Contact page styles
+│   ├── base.css
+│   ├── navigation.css
+│   ├── hero.css
+│   ├── about.css
+│   ├── contact.css
+│   ├── social.css
+│   └── responsive.css
 ├── img/
-│   ├── profile.jpg   # Your profile picture
-│   └── favicon.ico   # Website tab icon
-├── index.html        # Homepage
-├── about.html        # About page
-└── contact.html      # Contact page
+│   └── link-tag.png
+│   └── sreejuks.jpg
+├── index.html
+├── about.html
+├── contact.html

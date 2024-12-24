@@ -1,0 +1,48 @@
+/* css/responsive.css */
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .hero-content {
+        text-align: center;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .hero-image img {
+        width: 80%;
+        height: auto;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .text-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .text-content p {
+        font-size: 1rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}

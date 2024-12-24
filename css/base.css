@@ -1,0 +1,20 @@
+/* css/base.css */
+/* Reset and General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+* {
+    box-sizing: border-box;
+}

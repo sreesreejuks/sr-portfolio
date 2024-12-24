@@ -1,71 +1,46 @@
+<!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Sreeju KS</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+    <link rel="icon" href="img/link-tag.png" type="image/png">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/contact.css">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
     </nav>
-    <div class="container">
-    <section class="contact-section">
-        <h1>Stay in Touch</h1>
-        <div class="email-container">
-             <p>Email: <span id="email">sreejuksv@gmail.com</span> <button id="copyEmail">Copy</button></p>
-         </div>
 
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/sreeju-ks-8898a3112" target="_blank">
-                <img src="img/linkedin.png" alt="LinkedIn">
+    <section class="contact">
+        <div class="container">
+            <h1>Stay in Touch</h1>
+            <p class="email-link"><a href="mailto:mail@sreesreejuks.com">mail@sreesreejuks.com</a></p>
+        </div>
+         <div class="social-links">
+            <a href="https://www.linkedin.com/in/sreesreejuks" target="_blank" rel="noopener" class="social-icon linkedin" aria-label="Visit my LinkedIn profile">
+                <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/sreejuksv" target="_blank">
-                <img src="img/github.png" alt="GitHub">
+            <a href="https://github.com/sreesreejuks" target="_blank" rel="noopener" class="social-icon github" aria-label="Visit my GitHub profile">
+                <i class="fab fa-github"></i>
             </a>
-            <a href="https://www.instagram.com/sreejuksv/" target="_blank">
-                <img src="img/instagram.png" alt="Instagram">
+            <a href="https://www.instagram.com/sreesreejuks" target="_blank" rel="noopener" class="social-icon instagram" aria-label="Visit my Instagram profile">
+                <i class="fab fa-instagram"></i>
             </a>
         </div>
     </section>
-
-    <section class="contact-form-section">
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-                
-            <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div><br/>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-    </div>
-
-<script>
-    document.getElementById("copyEmail").addEventListener("click", function() {
-        var email = document.getElementById("email").textContent;
-        navigator.clipboard.writeText(email)
-           .then(() => {
-              alert("Email copied to clipboard!");
-          })
-          .catch(err => {
-               console.error('Could not copy email: ', err);
-          });
-    });
-</script>
-
+    <footer>
+        <p>&copy; 2024 Sreeju KS</p>
+    </footer>
 </body>
 </html>
