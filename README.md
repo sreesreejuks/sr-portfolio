@@ -1,4 +1,4 @@
-# Sreeju KS Portfolio Website
+# Sreeju KS Portfolio Website.
 
 This repository contains the source code for my personal portfolio website. The website is designed to showcase my skills, experience, and interests as a DevOps engineer.
 
